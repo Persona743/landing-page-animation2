@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { services } from '../constants';
-import { fadeIn, textVariant } from '../utils/mottion';
+import { fadeIn, textVariant } from '../utils/motion';
 
 import { SectionWrapper } from '../hoc';
 
@@ -57,7 +57,7 @@ const About = () => {
             <div className="mt-20 flex flex-wrap gap-10">
                 {services.map((service, index) => (
                     <ServiceCard
-                        key={services.title}
+                        key={service.title}
                         index={index}
                         {...service}
                     />

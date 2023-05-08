@@ -19,9 +19,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    eventApp,
+    gpt3,
+    landingPage,
     threejs,
 } from '../assets';
 
@@ -198,37 +198,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: 'Car Rent',
+        name: 'Event App',
         description:
-            'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+            'A web-base events to see multiple places to sing up and visit for. From Liverpool to Florida and Tokyo, this site recommend you a lot to visit. ',
         tags: [
             {
                 name: 'react',
                 color: 'blue-text-gradient',
             },
             {
-                name: 'mongodb',
-                color: 'green-text-gradient',
-            },
-            {
-                name: 'tailwind',
-                color: 'pink-text-gradient',
-            },
-        ],
-        image: carrent,
-        source_code_link: 'https://github.com/',
-    },
-    {
-        name: 'Job IT',
-        description:
-            'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
-        tags: [
-            {
-                name: 'react',
-                color: 'blue-text-gradient',
-            },
-            {
-                name: 'restapi',
+                name: 'nextjs',
                 color: 'green-text-gradient',
             },
             {
@@ -236,29 +215,47 @@ const projects = [
                 color: 'pink-text-gradient',
             },
         ],
-        image: jobit,
-        source_code_link: 'https://github.com/',
+        image: eventApp,
+        source_code_link: 'https://github.com/Persona743/event-app',
     },
     {
-        name: 'Trip Guide',
+        name: 'GPT3',
         description:
-            'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+            'Latest version of chat gpt3 that allows you to ask as many as question you want. A simple landing -age that developed to improve in the future.',
         tags: [
             {
-                name: 'nextjs',
+                name: 'react',
                 color: 'blue-text-gradient',
             },
             {
-                name: 'supabase',
+                name: 'react-icons',
+                color: 'green-text-gradient',
+            },
+        ],
+        image: gpt3,
+        source_code_link: 'https://github.com/Persona743/landing-page-gpt3',
+    },
+    {
+        name: 'Landing Page',
+        description:
+            'An earlier previous verion of my porfolio that show my skills before I step on react world. A pure html, css, javascript that uses bootstrap for making it responsive',
+        tags: [
+            {
+                name: 'bootstrap',
+                color: 'blue-text-gradient',
+            },
+            {
+                name: 'jQuery',
                 color: 'green-text-gradient',
             },
             {
-                name: 'css',
+                name: 'isotop',
                 color: 'pink-text-gradient',
             },
         ],
-        image: tripguide,
-        source_code_link: 'https://github.com/',
+        image: landingPage,
+        source_code_link:
+            'https://github.com/Persona743/bootstrap-landing-page',
     },
 ];
 

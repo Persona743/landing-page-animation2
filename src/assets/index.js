@@ -26,9 +26,9 @@ import shopify from './company/shopify.png';
 import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import eventApp from './event-app.png';
+import gpt3 from './gpt3.png';
+import landingPage from './landing-page.png';
 
 export {
     logo,
@@ -56,7 +56,7 @@ export {
     shopify,
     starbucks,
     tesla,
-    carrent,
-    jobit,
-    tripguide,
+    eventApp,
+    gpt3,
+    landingPage,
 };
